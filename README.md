@@ -49,7 +49,7 @@ An AI-powered **Choose Your Own Adventure** game built with **Streamlit**, where
 └── README.md
 ```
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/NM0124/ai-multimodal-visual-novel
