@@ -45,7 +45,6 @@ An AI-powered **Choose Your Own Adventure** game built with **Streamlit**, where
 ├── app.py
 ├── .env
 ├── requirements.txt
-├── story.mp3
 └── README.md
 ```
 
@@ -53,6 +52,7 @@ An AI-powered **Choose Your Own Adventure** game built with **Streamlit**, where
 
 ```bash
 git clone https://github.com/NM0124/ai-multimodal-visual-novel
+
 cd ai-multimodal-visual-novel
 
 pip install -r requirements.txt
