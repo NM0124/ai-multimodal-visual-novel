@@ -3,8 +3,6 @@ import os
 import json
 import urllib.parse
 import requests
-from io import BytesIO
-from PIL import Image
 from gtts import gTTS
 from dotenv import load_dotenv
 from google import genai
@@ -79,7 +77,7 @@ def generate_image(prompt):
     encoded = urllib.parse.quote(prompt)
     url = f"https://image.pollinations.ai/prompt/{encoded}"
     response = requests.get(url, timeout=30)
-    return Image.open(BytesIO(response.content))
+    return response.content
 
 def generate_audio(text):
     tts = gTTS(text)
